@@ -44,7 +44,7 @@ int parseCorruptedInstructionII(const string &instruction) {
 }
 
 int main() {
-    ifstream input("samples/sample3a.txt");
+    ifstream input("samples/sample3b.txt");
     if (!input.is_open()) {
         cerr << "Error: Unable to open input.txt" << endl;
         return 1;
